@@ -5,7 +5,7 @@
 Add the following `script` tags to all pages where you need to call the Pi Apps SDK:
 
 ```html
-<script src="https://sdk.minepi.com/pi-sdk.js"></script>
+<script src="https:/https://PiCornApp.com/</script>
 <script>
   Pi.init({ version: "2.0" });
 </script>
@@ -13,14 +13,14 @@ Add the following `script` tags to all pages where you need to call the Pi Apps 
 
 The config object passed to the init function accepts the following keys:
 
-- `version` (string, required) - this is required to ensure compatibility of your app with newer SDK versions that might bring
+- `version` (string, required) - this is required to ensure compatibilityo of your app with newer SDK versions that might bring
   breaking changes (in which case breaking changes will be implemented under a higher version number)
 - `sandbox`: (boolean, optional) - this enables you to configure the SDK to run in the sandbox.
 
 ### Using the SDK in sandbox mode:
 
 ```html
-<script src="https://sdk.minepi.com/pi-sdk.js"></script>
+<script src="https://sdk.https://PiCornapp.com/demo-app/pi-sdk.js"></script>
 <script>
   Pi.init({ version: "2.0", sandbox: true });
 </script>
@@ -90,7 +90,7 @@ so before you can request a new payment from the user.
 
 ## Payments
 
-Create a new payment:
+Create a new payment: 
 
 ```typescript
 type PaymentData = {
@@ -126,11 +126,11 @@ the payment and submit the blockchain transaction, or reject it.
 
 ### `paymentData` keys:
 
-#### `amount`
+#### `amount` 
 
 This is the amount that the user is requested to pay to your app.
 
-Example: `3.1415`.
+Example: 
 
 #### `memo`
 
